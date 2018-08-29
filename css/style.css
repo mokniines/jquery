@@ -1,0 +1,65 @@
+
+.mystyle{
+	font-weight:bold;
+}
+
+.italicstyle{
+	font-style: italic;
+}
+.underlinedstyle{
+	text-decoration:underline; 
+	}
+#p{
+	border-width: 3px;
+	width: 700px;
+	height: 350px;
+	text-shadow: 50px;
+	}
+.button{
+	background-color:grey;
+	width: 100px;
+	height:60px;
+	font-weight: bold;
+	color: white;
+	
+	margin-left: 15px;
+	margin-top:20px;
+	border-radius: 50%;
+	}
+#fontsize,#fontfamily,#borderstyle{
+	border-radius: 50%;
+	width: 100px;
+	height:60px;
+	background-color:grey;
+	color: white;
+	font-weight: bold;
+	padding-left:20px;
+	margin-left: 15px;
+}
+#border{
+	display: inline-block;
+	margin-left: 5px;
+	
+}
+#family{
+	display: inline-block;
+    margin-left: 15px;
+
+}
+#allbutton{
+	display: block;
+	}
+#color{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+body{
+	background-image:url(http://www.cccra.info/wp-content/uploads/2018/05/flower-background-hd-tumblr-pink-flower-background-tumblr-45-tumblr-background-flower.jpg);
+    background-size: cover;
+    }
+  #backgroundcolor{
+  	margin-left: 75px;
+  }
+  #bordercolor{
+  	margin-left: 90px;
+  }

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+<body>
+<div id="button">
+
+  <button  class="button 1" onclick="bold()">bold</button>
+  <button  class="button 2"onclick="italic()">italic</button>
+  <button  class="button 3"onclick="underlined()"> underlined</button>
+
+ </div>
+
+  
+<div id="family">
+	
+    <SELECT    id="fontfamily" onchange="font()">
+       <option >Arical</option>
+	   <option >Georgia</option>
+       <option >Times New Roman </option>
+       <option >Verdana</option>
+       <option >Impact</option>
+    </SELECT>
+    <SELECT  id="fontsize" onchange="font2()">
+       <option >20px </option>
+	   <option >40px</option>
+       <option >60px </option>
+       <option >80px</option>
+       <option >100px</option>
+    </SELECT>
+ </div>
+ <div id="border">
+	
+    <select   id="borderstyle" onchange="font3()">
+	     <option >dashed</option>
+	     <option >dotted</option>
+       <option >double </option>
+       <option >solide</option>
+       <option >ridge</option>
+       <option >outset</option>
+       <option >groove</option>
+       <option >inset</option>
+    </select> 
+
+</div>
+<div id="color">
+       <input type="color" name="favcolor" value="#ff0000" id="colo" onchange="font6()" >
+       <input type="color" name="favcolor" value="#ff0000" id="bordercolor" onchange="font4()"> 
+       <input type="color" name="favcolor" value="#ff0000" id="backgroundcolor" onchange="font5()">
+    </div>
+
+<br>
+<CENTER  >
+
+<textarea  id="p" >
+	
+
+</textarea> 
+</CENTER>
+</body>
+<script src="js/main.js"></script>
+</html>
